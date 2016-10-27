@@ -42,8 +42,11 @@ A Multi-Node Multithreading Computation Offloading Framework. A Multitheading an
 2. Modify IP address in the file. The server that has the IP address will be the first repartitioner node.
 
   if [ -e /system/bin/tcpmux ];
+  
   then
+  
    tcpmux --daemon --control 5554 --retry 5555 12.34.56.78:5556
+   
   fi;
 
  In this example, The node 12.34.56.78 will be the first repartitioner node.
