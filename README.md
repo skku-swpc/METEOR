@@ -41,14 +41,12 @@ A Multi-Node Multithreading Computation Offloading Framework. A Multitheading an
   $ vi meteor_scripts/30tcpmux
 2. Modify IP address in the file. The server that has the IP address will be the first repartitioner node.
 
-  #!/system/bin/sh
-
   if [ -e /system/bin/tcpmux ];
   then
    tcpmux --daemon --control 5554 --retry 5555 12.34.56.78:5556
   fi;
 
-In this example, The node 12.34.56.78 will be the first repartitioner node.
+ In this example, The node 12.34.56.78 will be the first repartitioner node.
 
 3. Execute the following command. make sure that 1. your device and computer are connected 2. adb is installed in your computer.
 
