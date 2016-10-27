@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+if [ -e /system/bin/tcpmux ];
+then
+   tcpmux --daemon --control 5554 --retry 5555 192.168.1.132:5556
+fi;
+
