@@ -10,7 +10,7 @@ A Multi-Node Multithreading Computation Offloading Framework. A Multitheading an
   
   $ cd meteor_source
   
-2. Download CyanogenMod for Galaxy Nexus (Maguro) and setup build environment(refer [this] (https://wiki.cyanogenmod.org/w/Build_for_maguro)).
+2. Download CyanogenMod for Galaxy Nexus (Maguro) and setup build environment (refer [this] (https://wiki.cyanogenmod.org/w/Build_for_maguro)).
 
 3. Clone this repository and copy METEOR into your android source tree
 
